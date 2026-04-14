@@ -51,15 +51,14 @@ This project highlights **data science, machine learning, and deployment skills*
 - Tested the API with **Python requests**.  
 
 ---
-
 ## 📌 Skills Demonstrated  
 - **Data Wrangling & Analysis**: pandas, numpy  
 - **Statistical Visualization**: matplotlib, seaborn  
-- **EDA & Feature Selection**  
+- **Exploratory Data Analysis (EDA) & Feature Engineering**  
 - **Class Imbalance Handling**: SMOTE  
-- **ML Classification**: Random Forest, KNN (scikit-learn)  
-- **Model Evaluation & Metrics**  
-- **Deployment & API Development**: FastAPI, Pydantic, Pickle  
+- **Machine Learning Classification**: Random Forest, KNN (scikit-learn)  
+- **Model Evaluation**: Accuracy, Precision, Recall, F1-Score  
+- **Deployment & API Development**: FastAPI, Pydantic, Pickle, Docker  
 - **API Testing**: requests  
 
 ---
@@ -68,11 +67,16 @@ This project highlights **data science, machine learning, and deployment skills*
 - **Python 3.11**  
 - **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn, imblearn, FastAPI, Pydantic, requests  
 
+---
+
 ## 📂 File Structure  
-- `EDA and HeartDisease prediction.ipynb` → Jupyter Notebook containing EDA, feature selection, model training, and evaluation.  
-- `model_api.py` → FastAPI script to serve the ML model as a REST API.  
-- `testing.py` → Client script to test API endpoints with sample input data.  
-- Other supporting files → Pickled trained model, dataset.  
+- `EDA_and_HeartDisease_prediction.ipynb` → Jupyter Notebook containing EDA, feature engineering, model training, and evaluation  
+- `model_api.py` → FastAPI application for serving the trained ML model as a REST API  
+- `testing.py` → Client script to test API endpoints with sample input data  
+- `Dockerfile` → Docker configuration file to containerize the FastAPI application  
+- `model.pkl` → Serialized trained machine learning model  
+- `dataset.csv` → Raw dataset used for training and analysis
+- - Other supporting files → Pickled trained model, dataset.  
 ---
 
 🔗 **Note**: Please check the repository files for detailed instructions on how to run the project and test the API.  
